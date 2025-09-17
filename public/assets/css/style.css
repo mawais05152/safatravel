@@ -1,0 +1,211 @@
+/* ===============================
+   Global Variables
+================================= */
+:root {
+  --primary: #b49144;
+  --secondary: #b49144;
+  --light: #b49144;
+  --dark: #b49144;
+  --accent: #008f7e;
+}
+
+/* ===============================
+   General Utility
+================================= */
+.fw-medium, .fw-semi-bold {
+  font-weight: 600 !important;
+}
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 45px;
+  bottom: 45px;
+  z-index: 99;
+}
+.btn {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  transition: .5s;
+}
+.btn.btn-primary,
+.btn.btn-secondary {
+  color: #fff;
+}
+
+/* ===============================
+   Buttons
+================================= */
+.btn-square { width: 38px; height: 38px; }
+.btn-sm-square { width: 32px; height: 32px; }
+.btn-lg-square { width: 48px; height: 48px; }
+
+.btn-lg-square,
+.btn-sm-square,
+.btn-square {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+/* ===============================
+   Navbar
+================================= */
+.navbar-light .navbar-nav .nav-link {
+  position: relative;
+  margin-right: 50px;
+  padding: 15px 0;
+  color: var(--primary) !important;
+  font-size: 20px;
+  outline: 0;
+  transition: .5s;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #406100 !important;
+}
+.navbar-light .navbar-brand img {
+  max-height: 80px;
+  transition: .5s;
+}
+.sticky-top.navbar-light .navbar-brand img {
+  max-height: 60px;
+}
+
+/* Mobile Navbar */
+@media (max-width: 991.98px) {
+  .sticky-top.navbar-light {
+    position: relative;
+    background: #fff;
+  }
+  .navbar-light .navbar-collapse {
+    margin-top: 15px;
+    border-top: 1px solid #ddd;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px 0;
+    margin-left: 0;
+    color: var(--primary) !important;
+  }
+  .navbar-light .navbar-brand img {
+    max-height: 45px;
+  }
+}
+
+/* ===============================
+   Headers / Banners
+================================= */
+.hero-header {
+  background: url(../img/safa-teavel.webp) center center/cover no-repeat;
+  min-height: 750px;
+  width: 100%;
+}
+.umrah-header {
+  background: url(../img/umrah-package.webp) center center/cover no-repeat;
+  min-height: 750px;
+  width: 100%;
+}
+.ramadan-header {
+  background: url(../img/ramadan-package.webp) center center/cover no-repeat;
+  min-height: 750px;
+  width: 100%;
+}
+.easter-header {
+  background: url(../img/easter-package.webp) center center/cover no-repeat;
+  min-height: 750px;
+  width: 100%;
+}
+
+/* Mobile Header Fix */
+@media (max-width: 780px) {
+  .hero-header,
+  .umrah-header,
+  .ramadan-header,
+  .easter-header {
+    background: url(../img/safa-teavel.webp) center center/cover no-repeat;
+    min-height: 587px;
+    margin-top: -25px !important;
+  }
+}
+
+/* ===============================
+   Section Title
+================================= */
+.section-title {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+}
+.section-title::before,
+.section-title::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  z-index: -1;
+  background: var(--primary);
+}
+.section-title::before {
+  width: calc(100% + 80px);
+  top: 4px;
+  left: -40px;
+}
+.section-title::after {
+  width: calc(100% + 120px);
+  bottom: 5px;
+  left: -60px;
+}
+.section-title.text-start::before {
+  width: calc(100% + 40px);
+  left: 0;
+}
+.section-title.text-start::after {
+  width: calc(100% + 60px);
+  left: 0;
+}
+
+/* ===============================
+   Footer
+================================= */
+.footer .btn.btn-social {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 35px;
+  transition: .3s;
+}
+.footer .btn.btn-social:hover {
+  color: var(--primary);
+}
+.footer .btn.btn-link {
+  display: block;
+  margin-bottom: 5px;
+  padding: 0;
+  text-align: left;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  transition: .3s;
+}
+.footer .btn.btn-link::before {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+.footer .btn.btn-link:hover {
+  letter-spacing: 1px;
+}
+.footer .copyright {
+  padding: 25px 0;
+  font-size: 15px;
+  border-top: 1px solid rgba(255, 255, 255, .1);
+}
+.footer .copyright a {
+  color: var(--light);
+}
