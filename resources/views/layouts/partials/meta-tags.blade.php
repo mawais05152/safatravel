@@ -31,4 +31,4 @@
 <meta property="og:type" content="Hajj & Umrah" />
 <meta property="og:image" content="https://www.safatravel.co.uk/img/logo.png" />
 <meta property="og:url" content="https://www.safatravel.co.uk/" />
-<meta property="og:description" content="<?=$pagedescription?>"/>
+<meta property="og:description" content=""/>
