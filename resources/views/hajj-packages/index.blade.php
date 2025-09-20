@@ -1,0 +1,10 @@
+@extends('layouts.app')
+@section('title')
+    <title>Hajj</title>
+@endsection
+@section('content')
+@include('partials.home.banner')
+    @include('hajj-packages.partials.packages')
+    @include('hajj-packages.partials.content')
+    @include('partials.home.faqs')
+@endsection
