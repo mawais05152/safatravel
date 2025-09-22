@@ -1,9 +1,7 @@
 <div class="container-xxl px-3 px-md-4 px-lg-5">
     <div class="row">
-
         <div class="col-12 col-lg-7" style="margin-top: 6%;">
             <div class="p-3 shadow content-box" style="border-radius: 12px; background:#fff;">
-
                 <h2 class="mt-3 p-3 color">
                     Fulfill your Umrah dream with Safa Travel
                 </h2>
@@ -16,7 +14,6 @@
                     hotels, transportation,
                     ziyarats, and meals – all tailored according to your preferences.
                 </p>
-
                 <p style="text-align: justify;">
                     Choose from comfortable 3-star accommodations to luxurious 5-star hotels, with durations ranging
                     from 7 to 14 nights,
@@ -66,13 +63,11 @@
 <div class="container-xxl px-3 px-md-4 px-lg-5">
     <div class="row gx-4 align-items-stretch">
 
-        <!-- LEFT: Fixed Image -->
         <div class="col-lg-5 col-md-6 col-12 mb-3 order-2 order-md-1 d-flex">
             <img src="{{asset('assets/img/umrah-2.webp')}}" alt="Umrah Packages — Safa Travel" class="img-fluid shadow w-100 h-100"
                 style="border-radius:12px; object-fit:cover; max-height:70vh;margin-top:20%;" />
         </div>
 
-        <!-- RIGHT: Scrollable Content -->
         <div class="col-lg-7 col-md-6 col-12 mb-3 order-1 order-md-2 d-flex">
             <div class="w-100 scroll-box"
                 style="background:#fff; border-radius:12px; padding:20px;

@@ -181,7 +181,7 @@
         </div>
       </div>
       <div class="col-lg-3 col-md-6">
-        <h4 class=" mb-3">Quick Links</h4>
+        <h4 class=" mb-3" style="color:white;">Quick Links</h4>
         <a class="btn btn-link" href="https://www.safatravel.co.uk/">Home</a>
         <a class="btn btn-link" href="https://www.safatravel.co.uk/about.html"
           >About Us</a
@@ -191,7 +191,7 @@
         >
       </div>
       <div class="col-lg-3 col-md-6">
-        <h4 class=" mb-3">Our Terms</h4>
+        <h4 class=" mb-3" style="color:white;">Our Terms</h4>
         <a
           class="btn btn-link"
           href="https://www.safatravel.co.uk/terms-and-conditions.html"
@@ -205,7 +205,7 @@
         <a class="btn btn-link" href="#">Payment Security</a>
       </div>
       <div class="col-lg-3 col-md-6">
-        <h4 class=" mb-3">Pay Safely With Us</h4>
+        <h4 class=" mb-3" style="color:white;">Pay Safely With Us</h4>
         <p class="mb-2">
           The payment is encrypted and transmitted securely with an SSL
           protocol.
@@ -213,7 +213,7 @@
         <span class="container-fluid visaimg1"></span>
       </div>
       <div class="col-lg-3 col-md-6">
-        <h4 class=" mb-3">Social</h4>
+        <h4 class=" mb-3" style="color:white;">Social</h4>
         <div class="d-flex">
           <a
             class="btn btn-outline-light btn-social"

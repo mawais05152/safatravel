@@ -2,9 +2,7 @@
     <div class="row">
         <div class="col-12 col-lg-7" style="margin-top: 6%;">
             <div class="p-3 shadow content-box" style="border-radius: 12px; background:#fff;">
-
-                <h3 class="mt-3"
-                    style="color:#b49144; background:#f3f8e8; padding:.75rem 1rem; border-radius:8px; margin-top:1rem;">
+                <h3 class="mt-3 color">
                     Secure Your Ramadan Umrah Package 2026: Flights, Visa, Hotels, Transport & Ziyarats
                 </h3>
                 <p style="text-align: justify;">
@@ -15,7 +13,6 @@
                     have lots of different options to choose from, so it fits your needs and budget. This means you can
                     have a comfortable and fulfilling Umrah journey.
                 </p>
-
                 <h5 style="color:#008f7e; font-weight:700; margin-top:1rem;">Hassle-Free Umrah: Everything You Need
                 </h5>
                 <ul>
@@ -30,9 +27,9 @@
                     <li><b>Expert Help All the Way:</b> Our friendly team is here to answer any questions you have, from
                         sorting your visa to explaining the steps of Umrah.</li>
                     <li><b>Packages for Everyone:</b> Traveling solo, with family, or in a group? No problem! We have
-                        <a href="https://www.safatravel.co.uk/umrah-packages')}}"
-                            style="color:#000; font-weight:bold; text-decoration:underline;">
-                            Umrah Packages
+                        <a href="{{ route('ramadan-umrah-packages') }}"
+                            style="color:#000; font-weight:bold; text-decoration:none;">
+                            Ramadan Umrah Packages
                         </a> to suit everyone.
                     </li>
                 </ul>
@@ -47,8 +44,7 @@
                 </ul>
 
                 <div class="mt-4">
-                    <h3 class="mt-2"
-                        style="color:#b49144; background:#f3f8e8; padding:.75rem 1rem; border-radius:8px; margin-bottom:1rem;">
+                    <h3 class="mt-2 color">
                         Packages for Every Budget
                     </h3>
                     <ul>
@@ -63,9 +59,95 @@
             </div>
         </div>
         <div class="col-12 col-lg-5 text-lg-end text-center">
-            <img src="{{asset('assets/img/umrah-pic-3.jpg')}}" alt="Ramadan Umrah 2026 — Safa Travel"
-                class="img-fluid shadow w-100 h-100 umrah-image"
-                style="max-height: 590px; object-fit: cover; object-position: bottom; border-radius: 12px;" />
+            <img src="{{ asset('assets/img/umrah-pic-2.jpg') }}" alt="Ramadan Umrah 2026 — Safa Travel"
+                class="img-fluid shadow w-100 umrah-image"
+                style="max-height: 590px; object-fit: cover; object-position: bottom; border-radius: 12px; margin-top: 47%" />
+        </div>
+    </div>
+</div>
+
+<div class="container-xxl px-3 px-md-4 px-lg-5 py-4">
+    <div class="row gx-4 align-items-stretch">
+        <div class="col-lg-5 col-md-6 col-12 mb-3 order-2 order-md-1 d-flex">
+            <img src="{{ asset('assets/img/umrah-pic-3.jpg')}}" alt="Ramadan Umrah" class="img-fluid shadow w-100 "
+                style="border-radius:12px; object-fit:cover; max-height:73vh;margin-top: 14%;" />
+        </div>
+        <div class="col-lg-7 col-md-6 col-12 mb-3 order-1 order-md-2 d-flex">
+            <div class="w-100 scroll-box"
+                style="background:#fff; border-radius:12px; padding:20px;
+                  box-shadow:0 4px 10px rgba(0,0,0,0.1); text-align:justify;
+                  max-height:100vh; overflow-y:auto; padding-right:10px;">
+                <h3 class="mt-2 color">
+                    Extras to Make Your Trip Smooth Sailing
+                </h3>
+                <ul>
+                    <li><b>Visa Help:</b> Getting a visa can be confusing. We'll make it easy for you by guiding you
+                        through the entire process.</li>
+                    <li><b>Explore History:</b> Make your Umrah even more special with optional tours that connect you
+                        to the sacred history of Islam.</li>
+                    <li><b>Open to Everyone:</b> At Safa Travel, we pride ourselves on offering packages tailored for
+                        families, solo travellers, and groups alike.</li>
+                </ul>
+
+                <h3 class="mt-2 color">
+                    A Detailed Look at Our Ramadan Umrah Packages 2026
+                </h3>
+                <h5 style="color:#008f7e; font-weight:700; margin-top:1rem;">Top Airlines & Hotels for a Hassle free
+                    Umrah</h5>
+                <p class="mb-4">We only pick the best airlines departing from all major UK airports and hotels with
+                    top-notch service. Rest easy knowing you're in good hands with us.</p>
+
+                <h5 style="color:#008f7e; font-weight:700; margin-top:1rem;">Visa Process Made Easy</h5>
+                <p class="mb-4">Don't let paperwork stress you out. We provide step-by-step support to ensure your
+                    visa is sorted without a hitch.</p>
+
+                <h5 style="color:#008f7e; font-weight:700; margin-top:1rem;">Full Support Throughout</h5>
+                <p class="mb-4">From the minute you call us to the moment you get home, we're here for you. Our
+                    dedicated support team makes sure everything goes according to plan.</p>
+
+                <h5 style="color:#008f7e; font-weight:700; margin-top:1rem;">Best Value for Money</h5>
+                <p class="mb-4">We understand budgets are important. That's why we provide options that balance
+                    affordability with comfort and ease of travel.</p>
+
+                <h5 style="color:#008f7e; font-weight:700; margin-top:1rem;">Group Discounts & Special Offers</h5>
+                <p class="mb-4">Travelling as a family or with friends? Ask about our group discounts. The more, the
+                    merrier, and the cheaper!</p>
+
+                <h5 style="color:#008f7e; font-weight:700; margin-top:1rem;">Optional Extras to Enhance Your Experience
+                </h5>
+                <p class="mb-4">Want to explore more? Add optional tours of historic Islamic sites to your package to
+                    make your Umrah even more memorable.</p>
+
+                <h3 class="mt-2 color">
+                    Planning Your Trip: Step by Step
+                </h3>
+                <ol>
+                    <li><b>Pick Your Package:</b> Choose the package that best suits your needs and budget.</li>
+                    <li><b>Book Early:</b> Get in touch with us early to lock in the best flights and hotel rates.</li>
+                    <li><b>Prepare Your Documents:</b> Have your passport and required documents ready for visa
+                        processing.</li>
+                    <li><b>Travel With Ease:</b> From your departure to your return, we'll handle all the details so you
+                        can focus on your worship.</li>
+                </ol>
+                <h3 class="mt-2 color">
+                    Why Choose Safa Travel?
+                </h3>
+                <p><b>Over a Decade of Experience:</b> We've been helping Muslims in the UK fulfil their spiritual
+                    journeys for more than 10 years.</p>
+                <p><b>Trusted & Certified:</b> ATOL-protected and IATA-certified, you can trust us with your pilgrimage.
+                </p>
+                <p><b>Thousands of Happy Customers:</b> Our loyal customers return year after year because of our
+                    quality service and reliability.</p>
+
+                <h3 class="mt-2 color">
+                    Ready to Make Your Ramadan Umrah Comfortable? Make a Call!
+                </h3>
+                <b>Let Safa Travel help you plan your dream Ramadan Umrah. Contact us today:</b>
+                <ul>
+                    <li><b>Call:</b> 020-3286-7666</li>
+                    <li><b>Email:</b> info@safatravel.co.uk</li>
+                </ul>
+            </div>
         </div>
     </div>
 </div>

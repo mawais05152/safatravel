@@ -8,7 +8,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a class="position-relative d-block overflow-hidden" href="https://www.safatravel.co.uk/hajj/4-weeks-hajj-package.html">
+                            <a class="position-relative d-block overflow-hidden" href="{{route('hajj/4-weeks-hajj-package')}}">
                                 <img class="img-fluid" src="{{asset('assets/img/4a.webp')}}" alt="Hajj Packages">
                             </a>
                         </div>
@@ -25,8 +25,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £4695 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/enquire-now.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                     <a href="https://www.safatravel.co.uk/hajj/4-weeks-hajj-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('enquire-now')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                     <a href="{{route('hajj/4-weeks-hajj-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +37,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a class="position-relative d-block overflow-hidden" href="https://www.safatravel.co.uk/hajj/2-3-weeks-hajj-package.html">
+                            <a class="position-relative d-block overflow-hidden" href="{{route('hajj/2-3-weeks-hajj-package')}}">
                                 <img class="img-fluid" src="{{asset('assets/img/p9.webp')}}" alt="Hajj Packages">
                             </a>
                         </div>
@@ -54,8 +54,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £5695 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/enquire-now.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                     <a href="https://www.safatravel.co.uk/hajj/2-3-weeks-hajj-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('enquire-now')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                     <a href="{{route('hajj/2-3-weeks-hajj-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a class="position-relative d-block overflow-hidden" href="https://www.safatravel.co.uk/hajj/2-3-weeks-non-shifting-hajj-package.html">
+                            <a class="position-relative d-block overflow-hidden" href="{{route('hajj/2-3-weeks-non-shifting-hajj-package')}}">
                                 <img class="img-fluid" src="{{asset('assets/img/p7.webp')}}" alt="Hajj Packages">
                             </a>
                         </div>
@@ -82,8 +82,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £5795 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                     <a href="https://www.safatravel.co.uk/enquire-now.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                     <a href="https://www.safatravel.co.uk/hajj/2-3-weeks-non-shifting-hajj-package.html" class="btn btn-primary mt-2">View Details</a>
+                                     <a href="{{route('enquire-now')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                     <a href="{{route('hajj/2-3-weeks-non-shifting-hajj-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/7-nights-3-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/7-nights-3-star-package')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p7.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -114,8 +114,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £690 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/7-nights-3-star-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/7-nights-3-star-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +125,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/10-nights-3-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/10-nights-3-star-package')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p8.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -142,8 +142,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £730 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/10-nights-3-star-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/10-nights-3-star-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -153,7 +153,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/14-nights-3-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/14-nights-3-star-hajj')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p9.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -170,8 +170,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £830 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/14-nights-3-star-hajj.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/14-nights-3-star-hajj')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/14-nights-4-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/14-nights-4-star-hajj')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p6.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -202,8 +202,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £500 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/5-nights-4-star-hajj.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/5-nights-4-star-hajj')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a class="position-relative d-block overflow-hidden" href="https://www.safatravel.co.uk/hajj/5-star-hajj-package.html">
+                            <a class="position-relative d-block overflow-hidden" href="{{route('hajj/5-star-hajj-package')}}">
                                 <img class="img-fluid" src="{{asset('assets/img/7d.webp')}}" alt="Hajj Packages">
                             </a>
                         </div>
@@ -229,8 +229,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £6395 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/enquire-now.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                     <a href="https://www.safatravel.co.uk/hajj/5-star-hajj-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('enquire-now')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                     <a href="{{route('hajj/5-star-hajj-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/14-nights-4-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/14-nights-4-star-hajj')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p6.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -258,8 +258,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £775 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/10-nights-4-star-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/10-nights-4-star-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -273,7 +273,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/7-nights-5-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/7-nights-5-star-package')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p1.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -290,8 +290,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £975 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/7-nights-5-star-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/7-nights-5-star-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -301,7 +301,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/12-nights-5-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/12-nights-5-star-package')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p2.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -318,8 +318,8 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £1250 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/12-nights-5-star-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/12-nights-5-star-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="package-item">
                         <div class="overflow-hidden">
-                            <a href="https://www.safatravel.co.uk/hajj/14-nights-5-star-package.html" class="position-relative d-block overflow-hidden" href="#">
+                            <a href="{{route('hajj/14-nights-5-star-package')}}" class="position-relative d-block overflow-hidden" href="#">
                                 <img class="img-fluid" src="{{asset('assets/img/p3.webp')}}" alt="hajj Packages">
                             </a>
                         </div>
@@ -346,13 +346,12 @@
                                     <p class="textlef"> <small><i class="fa fa-plane text-primary"></i></small> <span class="me-2">Flights</span> <small><i class="fa fa-bus text-primary me-1"></i></small><span class="me-2">Transport</span> <small><i class="fa fa-id-card text-primary "></i></small> <span class="me-2">Visa</span> <small><i class="fa fa-hotel text-primary"></i></small> <span class="me-2">Hotel</span></p>
                                      <p class="fonttext mt-1 textprice"> £1450 </p>
                                 <div class="justify-content-center mt-2 mb-3">
-                                    <a href="https://www.safatravel.co.uk/beat-my-quote.html" class="btn btn-primary mt-2">Enquire Now</a>
-                                    <a href="https://www.safatravel.co.uk/hajj/14-nights-5-star-package.html" class="btn btn-primary mt-2">View Details</a>
+                                    <a href="{{route('beat-my-quote')}}" class="btn btn-primary mt-2">Enquire Now</a>
+                                    <a href="{{route('hajj/14-nights-5-star-package')}}" class="btn btn-primary mt-2">View Details</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
      </div>

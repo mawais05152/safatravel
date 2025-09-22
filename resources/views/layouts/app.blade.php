@@ -28,7 +28,7 @@
 
     <!-- Template Stylesheet -->
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
-    @yield('styles')
+    @yield('css')
 
     @include('layouts.partials.google')
 
@@ -55,11 +55,9 @@
 
     <!-- Template Javascript -->
     <script src="{{ asset('assets/js/main.js') }}"></script>
-    <script type="text/javascript">
-        $(".datetimepicker").each(function () {
-            $(this).datetimepicker();
-        });
-    </script>
+    <script src="{{ asset('assets/js/script.js') }}"></script>
+    @yield('scripts')
+
 </body>
 
 </html>

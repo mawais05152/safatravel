@@ -7,7 +7,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-package.html"
+                    <a href="{{route('umrah/7-nights-3-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p7.webp') }}" alt="Umrah Packages">
                     </a>
@@ -31,9 +31,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £625</p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-economy-umrah-deal.html"
+                            <a href="{{route('umrah/7-nights-economy-umrah-deal')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -44,7 +44,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-4-star-package.html"
+                    <a href="{{route('umrah/7-nights-4-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p4.webp') }}" alt="Umrah Packages">
                     </a>
@@ -68,9 +68,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £615 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/10-nights-cheapest-umrah-deal.html"
+                            <a href="{{route('umrah/10-nights-cheapest-umrah-deal')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -81,7 +81,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/14-nights-4-star-package.html"
+                    <a href="{{route('umrah/14-nights-4-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p6.webp') }}" alt="Umrah Packages">
                     </a>
@@ -105,9 +105,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £715 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/10-nights-4-star-umrah-deal.html"
+                            <a href="{{route('umrah/10-nights-4-star-umrah-deal')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -118,7 +118,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/14-nights-4-star-package.html"
+                    <a href="{{route('umrah/14-nights-4-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p6.webp') }}" alt="Umrah Packages">
                     </a>
@@ -142,9 +142,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £750 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/special-12-nights-family-umrah-deal.html"
+                            <a href="{{route('umrah/special-12-nights-family-umrah-deal')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/14-nights-5-star-package.html"
+                    <a href="{{route('umrah/14-nights-5-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p3.webp') }}" alt="Umrah Packages">
                     </a>
@@ -181,9 +181,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £825 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/10-nights-5-star-umrah-deal.html"
+                            <a href="{{route('umrah/10-nights-5-star-umrah-deal')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -194,7 +194,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/12-nights-5-star-package.html"
+                    <a href="{{route('umrah/12-nights-5-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p2.webp') }}" alt="Umrah Packages">
                     </a>
@@ -218,9 +218,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £950 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/12-nights-umrah-with-clock-tower-hotel.html"
+                            <a href="{{route('umrah/12-nights-umrah-with-clock-tower-hotel')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -230,7 +230,7 @@
 
 
 
-        <div class="text-center"><a href="https://www.safatravel.co.uk/umrah-packages.html" class="btn btn-dark">View
+        <div class="text-center"><a href="{{route('umrah-packages')}}" class="btn btn-dark">View
                 All Umrah Packages <img src="{{ asset('assets/img/arrow.png') }}" style="margin-left:10px"></a></div>
         <div class="text-center wow fadeInUp mt-5" data-wow-delay="0.1s">
             <h6 class="text-center text-primary px-3">All-Inclusive</h6>
@@ -240,7 +240,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-december-package.html"
+                    <a href="{{route('umrah/7-nights-3-star-december-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p7.webp') }}" alt="December Umrah Packages">
                     </a>
@@ -264,9 +264,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £720 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-december-package.html"
+                            <a href="{{route('umrah/7-nights-3-star-december-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -277,7 +277,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/10-nights-3-star-december-package.html"
+                    <a href="{{route('umrah/10-nights-3-star-december-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p8.webp') }}" alt="December Umrah Packages">
                     </a>
@@ -301,9 +301,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £760 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/10-nights-3-star-december-package.html"
+                            <a href="{{route('umrah/10-nights-3-star-december-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -314,7 +314,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/14-nights-3-star-december-package.html"
+                    <a href="{{route('umrah/14-nights-3-star-december-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p9.webp') }}" alt="December Umrah Packages">
                     </a>
@@ -338,16 +338,16 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £830 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/14-nights-3-star-december-package.html"
+                            <a href="{{route('umrah/14-nights-3-star-december-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center"><a href="https://www.safatravel.co.uk/december-umrah-packages.html"
+        <div class="text-center"><a href="{{route('december-umrah-packages')}}"
                 class="btn btn-dark">View All December Umrah Packages <img src="{{ asset('assets/img/arrow.png') }}"
                     style="margin-left:10px"></a></div>
 
@@ -359,7 +359,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-ramadan-package.html"
+                    <a href="{{route('umrah/7-nights-3-star-ramadan-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/13a.webp') }}" alt="Ramadan Umrah Packages">
                     </a>
@@ -383,9 +383,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £710 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-ramadan-package.html"
+                            <a href="{{route('umrah/7-nights-3-star-ramadan-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -396,7 +396,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-4-star-ramadan-package.html"
+                    <a href="{{route('umrah/7-nights-4-star-ramadan-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/5a.webp') }}" alt="Ramadan Umrah Packages">
                     </a>
@@ -420,9 +420,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £850 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-4-star-ramadan-package.html"
+                            <a href="{{route('umrah/7-nights-4-star-ramadan-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -433,7 +433,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-5-star-ramadan-package.html"
+                    <a href="{{route('umrah/7-nights-5-star-ramadan-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p1.webp') }}" alt="Ramadan Umrah Packages">
                     </a>
@@ -457,9 +457,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £890 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-5-star-ramadan-package.html"
+                            <a href="{{route('umrah/7-nights-5-star-ramadan-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -467,7 +467,7 @@
             </div>
         </div>
 
-        <div class="text-center"><a href="https://www.safatravel.co.uk/ramadan-umrah-packages.html"
+        <div class="text-center"><a href="{{route('ramadan-umrah-packages')}}"
                 class="btn btn-dark">View All Ramadan Umrah Packages <img src="{{ asset('assets/img/arrow.png') }}"
                     style="margin-left:10px"></a></div>
 
@@ -479,7 +479,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-easter-package.html"
+                    <a href="{{route('umrah/7-nights-3-star-easter-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p1a.webp') }}" alt="Easter Umrah Packages">
                     </a>
@@ -503,9 +503,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £825 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-easter-package.html"
+                            <a href="{{route('umrah/7-nights-3-star-easter-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -516,7 +516,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/14-nights-3-star-easter-package.html"
+                    <a href="{{route('umrah/14-nights-3-star-easter-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p5.webp') }}" alt="Easter Umrah Packages">
                     </a>
@@ -540,9 +540,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £1045 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/14-nights-3-star-easter-package.html"
+                            <a href="{{route('umrah/14-nights-3-star-easter-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -553,7 +553,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-4-star-easter-package.html"
+                    <a href="{{route('umrah/7-nights-4-star-easter-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/2a.webp') }}" alt="Easter Umrah Packages">
                     </a>
@@ -577,16 +577,16 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £870 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-4-star-easter-package.html"
+                            <a href="{{route('umrah/7-nights-4-star-easter-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-center"><a href="https://www.safatravel.co.uk/easter-umrah-packages.html"
+        <div class="text-center"><a href="{{route('easter-umrah-packages')}}"
                 class="btn btn-dark">View All Easter Umrah Packages <img src="{{ asset('assets/img/arrow.png') }}"
                     style="margin-left:10px"></a></div>
 
@@ -598,7 +598,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-package.html"
+                    <a href="{{route('umrah/7-nights-3-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p7.webp') }}" alt="Umrah Packages">
                     </a>
@@ -622,9 +622,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £690 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/7-nights-3-star-package.html"
+                            <a href="{{route('umrah/7-nights-3-star-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -635,7 +635,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/10-nights-3-star-package.html"
+                    <a href="{{route('umrah/10-nights-3-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p8.webp') }}" alt="Umrah Packages">
                     </a>
@@ -659,9 +659,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £730 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/10-nights-3-star-package.html"
+                            <a href="{{route('umrah/10-nights-3-star-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -672,7 +672,7 @@
         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="package-item">
                 <div class="overflow-hidden">
-                    <a href="https://www.safatravel.co.uk/umrah/14-nights-3-star-package.html"
+                    <a href="{{route('umrah/14-nights-3-star-package')}}"
                         class="position-relative d-block overflow-hidden" href="#">
                         <img class="img-fluid" src="{{ asset('assets/img/p9.webp') }}" alt="Umrah Packages">
                     </a>
@@ -696,9 +696,9 @@
                         </p>
                         <p class="fonttext mt-1 textprice"> £830 </p>
                         <div class="justify-content-center mt-2 mb-3">
-                            <a href="https://www.safatravel.co.uk/beat-my-quote.html"
+                            <a href="{{route('beat-my-quote')}}"
                                 class="btn btn-primary mt-2">Enquire Now</a>
-                            <a href="https://www.safatravel.co.uk/umrah/14-nights-3-star-package.html"
+                            <a href="{{route('umrah/14-nights-3-star-package')}}"
                                 class="btn btn-primary mt-2">View Details</a>
                         </div>
                     </div>
@@ -708,7 +708,7 @@
 
     </div>
 </div>
-<div class="text-center mt-3"><a href="https://www.safatravel.co.uk/easter-umrah-packages.html"
+<div class="text-center mt-3"><a href="{{route('easter-umrah-packages')}}"
         class="btn btn-dark">View All Easter Umrah Packages <img src="{{ asset('assets/img/arrow.png') }}" style="margin-left:10px"></a>
 </div>
 </div>

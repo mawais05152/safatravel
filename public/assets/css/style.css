@@ -583,7 +583,6 @@
 @media (max-width: 767px) {
     .umrah-image {
         margin-top: 0 !important;
-        /* mobile pe reset */
     }
 }
 
@@ -758,8 +757,11 @@
     .scroll-box {
         max-height: 70vh;
         /* mobile par scroll box ki height limit */
-        margin-top: 10%;
+         margin-top: 45%;
     }
+    /* .umrah-pic {
+        margin-top: 5% !important;
+    } */
 }
 
 .btn {
@@ -805,7 +807,7 @@
 
 .color {
     color: #406100;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .faq-section {
