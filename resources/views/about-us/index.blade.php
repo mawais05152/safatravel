@@ -1,6 +1,8 @@
  @extends('layouts.app')
 @section('title')
-    <title>Contact</title>
+    <title>Safa Travel UK | 15 Years of Trusted Hajj & Umrah Specialists</title>
+    <meta name="description"
+        content="Safa Travel: over 15 years of trusted Hajj & Umrah experience, ATOL-protected and IATA-accredited. Get personalised packages from 5-star luxury to budget friendly options with expert 24/7 support tailored just for you.">
 @endsection
 @section('content')
 @include('partials.home.banner')

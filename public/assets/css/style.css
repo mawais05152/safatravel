@@ -400,7 +400,8 @@
 .contact-us {
     border: 1px solid #c1b9d4;
     border-radius: 6px;
-    padding: 10px 0px;
+    padding: 5px 5px;
+    background-color: white;
 }
 
 .cal a {

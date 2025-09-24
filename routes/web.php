@@ -1,18 +1,23 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
-Route::get('/', function () { return view('home');});
+Route::get('/', function () { return view('home');})->name('home');
 Route::get('hajj-packages', function () { return view('hajj-packages.index');})->name('hajj-packages');
 Route::get('umrah-packages', function () { return view('umrah.index');})->name('umrah-packages');
 Route::get('december-umrah-packages', function () { return view('december-umrah.index');})->name('december-umrah-packages');
 Route::get('ramadan-umrah-packages', function () { return view('ramadan-umrah.index');})->name('ramadan-umrah-packages');
 Route::get('easter-umrah-packages', function () { return view('easter-umrah.index');})->name('easter-umrah-packages');
 Route::get('umrah-packages-2026', function () { return view('umrah-packages-2026.index');})->name('umrah-packages-2026');
-Route::get('about', function () { return view('about-us.index');})->name('about');
+Route::get('about.html', function () { return view('about-us.index');})->name('about');
 Route::get('contact', function () { return view('contact.index');})->name('contact');
 Route::get('beat-my-quote', function () { return view('beat-my-quote.index');})->name('beat-my-quote');
 Route::get('enquire-now', function () { return view('hajj-packages.partials.enquire-now');})->name('enquire-now');
+Route::get('terms-and-conditions', function () { return view('terms-and-conditions.index');})->name('terms-and-conditions');
+Route::get('privacy-and-policy', function () { return view('privacy-and-policy.index');})->name('privacy-and-policy');
+Route::post('home/enquiry', [HomeController::class, 'enquiry'])->name('home.enquiry');
+
 
 // umrah Packages
 Route::get('umrah/10-nights-3-star-december-package', function () { return view('umrah.packages.10-nights-3-star-december-package');})->name('umrah/10-nights-3-star-december-package');

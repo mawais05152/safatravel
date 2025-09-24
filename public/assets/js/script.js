@@ -1,4 +1,9 @@
 $(document).ready(function() {
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
     $(document).on("input", "#enquiry-phone", function() {
         this.value = this.value.replace(/\D/g, '');
         $('#msg10').html('please enter only numaric value');
@@ -137,31 +142,17 @@ $(document).ready(function() {
 
             return false;
         }
-
-
-
-
         $.ajax({
-
-            url: "enquiry.php",
-
+            url: baseUrl + "/home/enquiry",
             type: "post",
-
             data: formData,
-
             beforeSend: function() {
-
                 $('#btn-enquiry').html('Submitting...');
-
             },
-
             success: function(result) {
-
-
                 $('#enquiry-success-msg1').html(
                     'We have received your enquiry! Thank you, our team will get back to you soon!'
                     );
-
                 $('#btn-enquiry').html('Send message');
 
                 $('#enquiry-email').val('');

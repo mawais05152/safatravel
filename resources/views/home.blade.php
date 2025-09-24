@@ -57,6 +57,7 @@
     @include('partials.home.banner')
     @include('partials.home.flights')
     @include('partials.home.packages')
+    @include('partials.home.content')
     @include('partials.home.faqs')
 @endsection
 @section('scripts')
@@ -71,11 +72,9 @@
                     toggle.textContent = "+";
                 }
                 else {
-                    // Close all others
                     document.querySelectorAll('.faq-answer').forEach(ans => ans.style.display = "none");
                     document.querySelectorAll('.faq-toggle').forEach(tgl => tgl.textContent = "+");
 
-                    // Open this one
                     answer.style.display = "block";
                     toggle.textContent = "-";
                 }

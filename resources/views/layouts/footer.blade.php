@@ -2,8 +2,8 @@
 <div class="container-fluid grad text-light footer mt-5 wow fadeIn" data-wow-delay="0.1s">
   <div class="container-xxl footer-container py-5 mt-2">
     <div class="row footer-row g-3" style="padding: 0px 10px">
-      <div class="row contact-us d-flex">
-        <div class="col-lg-3 col-md-6 mb-2 col-sm-12 cal d-flex">
+      <div class="row contact-us d-flex" style="margin-top: -6%;">
+        <div class="col-lg-3 col-md-6 mb-2 col-sm-12 cal d-flex" style="background-color: #b19144">
           <div class="cal-footer-img">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@
             <a href="tel:020 3286 7666" class="foot-contact">020 3286 7666</a>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 mb-2 col-sm-12 cal d-flex">
+        <div class="col-lg-4 col-md-6 mb-2 col-sm-12 cal d-flex" style="background-color: #008f7e">
           <div class="cal-footer-img">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -135,7 +135,7 @@
             >
           </div>
         </div>
-        <div class="col-lg-5 col-md-6 col-sm-12 call d-flex">
+        <div class="col-lg-5 col-md-6 col-sm-12 call d-flex" style="background-color: #b19144">
           <div class="cal-footer-img">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -182,11 +182,11 @@
       </div>
       <div class="col-lg-3 col-md-6">
         <h4 class=" mb-3" style="color:white;">Quick Links</h4>
-        <a class="btn btn-link" href="https://www.safatravel.co.uk/">Home</a>
-        <a class="btn btn-link" href="https://www.safatravel.co.uk/about.html"
+        <a class="btn btn-link" href="{{route('home')}}">Home</a>
+        <a class="btn btn-link" href="{{route('about')}}"
           >About Us</a
         >
-        <a class="btn btn-link" href="https://www.safatravel.co.uk/contact.html"
+        <a class="btn btn-link" href="{{route('contact')}}"
           >Contact Us</a
         >
       </div>
@@ -194,12 +194,12 @@
         <h4 class=" mb-3" style="color:white;">Our Terms</h4>
         <a
           class="btn btn-link"
-          href="https://www.safatravel.co.uk/terms-and-conditions.html"
+          href="{{route('terms-and-conditions')}}"
           >Terms & Conditions</a
         >
         <a
           class="btn btn-link"
-          href="https://www.safatravel.co.uk/privacy-and-policy.html"
+          href="{{route('privacy-and-policy')}}"
           >Privacy & Cookies Policy</a
         >
         <a class="btn btn-link" href="#">Payment Security</a>

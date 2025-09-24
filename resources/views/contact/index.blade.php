@@ -1,6 +1,8 @@
  @extends('layouts.app')
 @section('title')
-    <title>Contact</title>
+    <title>Safa Travel UK - Contact Us | Queries & Support fo...</title>
+    <meta name="description"
+        content="Have questions about our Hajj or Umrah services? C...">
 @endsection
 @section('content')
 @include('partials.home.banner')

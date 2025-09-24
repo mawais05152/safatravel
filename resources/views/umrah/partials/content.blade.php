@@ -12,7 +12,7 @@
                     compromising on quality.
                     Our Umrah Packages are all inclusive covering every aspect such as flights, Umrah visas, tickets,
                     hotels, transportation,
-                    ziyarats, and meals – all tailored according to your preferences.
+                    ziyarats, and meals  all tailored according to your preferences.
                 </p>
                 <p style="text-align: justify;">
                     Choose from comfortable 3-star accommodations to luxurious 5-star hotels, with durations ranging
@@ -52,7 +52,7 @@
 
         <!-- RIGHT: Image -->
         <div class="col-12 col-lg-5 text-lg-end text-center">
-            <img src="{{asset('assets/img/umrah-1.webp')}}" alt="Umrah Packages — Safa Travel" class="img-fluid shadow w-100 h-100"
+            <img src="{{asset('assets/img/umrah-pic-2.jpg')}}" alt="Umrah Packages — Safa Travel" class="img-fluid shadow w-100 h-100"
                 style="max-height: 590px; object-fit: cover; object-position: center; border-radius: 12px; margin-top: 40%;">
         </div>
 
@@ -64,7 +64,7 @@
     <div class="row gx-4 align-items-stretch">
 
         <div class="col-lg-5 col-md-6 col-12 mb-3 order-2 order-md-1 d-flex">
-            <img src="{{asset('assets/img/umrah-2.webp')}}" alt="Umrah Packages — Safa Travel" class="img-fluid shadow w-100 h-100"
+            <img src="{{asset('assets/img/umrah-pic-3.jpg')}}" alt="Umrah Packages — Safa Travel" class="img-fluid shadow w-100 h-100"
                 style="border-radius:12px; object-fit:cover; max-height:70vh;margin-top:20%;" />
         </div>
 
@@ -82,7 +82,7 @@
                     the UK's trusted Umrah specialist. We understand the significance of this holy obligation
                     and offer unbeatable value without compromising on quality.
                     Our Umrah Packages are all inclusive covering every aspects such as flights, Umrah visas,
-                    tickets, hotels, transportation, ziyarats, and meals – all tailored according to your preferences.
+                    tickets, hotels, transportation, ziyarats, and meals  all tailored according to your preferences.
                 </p>
 
                 <p>
